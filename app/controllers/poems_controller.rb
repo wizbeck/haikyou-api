@@ -3,7 +3,7 @@ class PoemsController < ApplicationController
 
   # GET /poems
   def index
-    @poems = Poem.all
+    @poems = Poem.all.order(created_at: :desc)
 
     render json: @poems
   end
