@@ -3,12 +3,10 @@ API database on postgresql, used with Haikyou react demo Client app.
 repo for front end here: 
 https://github.com/wizbeck21/haikyou-client
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
 Information:
 
-* Rails API built use rails new --api
+* Rails API built using rails new --api
   scaffolded model for quick startup and use. No serializers used in API 
 
 * Ruby version
