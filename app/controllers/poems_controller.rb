@@ -46,6 +46,6 @@ class PoemsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def poem_params
-      params.require(:poem).permit(:title, :line_1, :line_2, :line_3, :author)
+      params.require(:poem).permit(:title, :line_1, :line_2, :line_3, :author, :likes)
     end
 end
